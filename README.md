@@ -19,7 +19,7 @@ I am starting a design for a robot arm and invite the open community to collabor
 * Digital Twin - the simulated design will represent the real implementation sufficiently to simulate
 * interchangeable motors & pulleys - the design leaves space internally for changes.
 
-## AI performance
+## AI Intentions
 Instead of encoders and highly precise motion at every joint, this arm is intended to control the end-effector like a person controls their hands.  We have a general sense of our elbow location but we don't perform fine control of the elbow to position the hands finely.  
 
 Kinematics will not be easy as the motors, back-EMF, etc will cross-influence one joint to another.  Instead, the bot is intended to evolve its performance through AI training (simulated and real-world).
@@ -29,7 +29,17 @@ Kinematics will not be easy as the motors, back-EMF, etc will cross-influence on
 ## Getting Started
 This deisgn will take a long time as it's not my priority project.  Collaboration is welcome.  Editing this repository is welcome.  Sharing comments & intellectual additions are encouraged by all.
 
+Here's a grabCAD model of the first parts of the collar.
+[GrabCAD OpenArm](https://grabcad.com/library/openarm-2 ':class=button')
 
+
+Soon I'll Post a video of the initial bearing assembly.
+
+A photo album to begin sharing photos
+[Google Photo Album](https://photos.app.goo.gl/zSo8spTBcs2SwBfr6 ':class=button')
+
+Let's see if I can post an image of an early sketch:
+![sketch 1](https://photos.app.goo.gl/fd8ezmeAaVzynse1A)
 
 # How You Can Help
 
@@ -52,3 +62,16 @@ This deisgn will take a long time as it's not my priority project.  Collaboratio
 * which are the first models necessary to begin simulation?  what parameters do we need to output to help the simulation team operate effectively?  Are there some university or research courses currently operating on digital plans that we could offer this design to?  That's a win-win, then they could align their digital simulations with our design to give more meaning to their exercises.
 * What measurements should be taken at what frequency?  Can we get away with no encoders at all?  Perhaps with a top-down camera the whole system could be tested under machine-vision learning.
 * How should we assign variables and capture the performance metrics that come from software simulation?  What is the software control system, minimal-viable, that must be implemented to get a rough control scenario working on a real model?  Can we get away with something as cheap as an arduino?
+
+## Documentation
+* This project will be highly multidisciplinary in order to be successful.  To attract great talent, we need to make the physics & data very clear.  And to provide native design files for each element, as well as a clear BOM. 
+* My recommendations
+  1. BOM itemS - directly here in the readme.md, in a markdown table
+  2. CAD data - grabCAD is preferred, using subdirectories for IMG, STEP, SOLIDWORKS
+  3. Version numbers - add a version to each item and collection of items that may need repeating.  Use vX.XX please.
+  4. Videos - Let's post on youTube and link here in markdown.  I can build a playlist as it grows.
+  5. Discussion - best place to discuss this, TBD.  Feel free to comment on any of our postings to begin.
+
+## Credits
+
+I collected the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
