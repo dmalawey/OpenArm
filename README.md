@@ -1,9 +1,9 @@
 # OpenArm
 _An open-source robot arm_
 
-[Github Repo](https://github.com/dmalawey/OpenArm ':class=button')
-[Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true 'class:button')
-
+| [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
+| [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
+| 
 
 I am starting a design for a robot arm and invite the open community to collaborate on this.  
 
