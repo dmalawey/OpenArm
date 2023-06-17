@@ -7,6 +7,9 @@ _An open-source robot arm_
 
 I am starting a design for a robot arm and invite the open community to collaborate on this.  
 
+![img1](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/42bde2079c49b20d65c9337484c22407/large.PNG)
+![img2](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/66d2971d7f5fd3bfa806faa31e257edc/large.png)
+
 ## Characteristics:
 
 * 3D Printable + OTS
