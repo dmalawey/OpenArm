@@ -131,12 +131,8 @@ Most robot arms have missed the point of arms, and we should improve on this.
 
 References are referred above using "R1" as to not interfere with markdown syntax :mortar_board:
 
-> 1. GummiArm Project: A Replicable & Variable-stiffness Robot Arm 
->  * [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf)
->  * [Youtube demonstration](https://youtu.be/ytCcpD84Jt0)
->  * [Github Repository](https://github.com/mstoelen/GummiArm)
-> 2. SCARA Arm example, Pybot, opensource
->  * [Hackaday writeup](https://hackaday.io/project/175419-pybot-scara-robotic-arm-3d-printed-python)
+> 1. GummiArm Project: A Replicable & Variable-stiffness Robot Arm [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf), [Youtube demo](https://youtu.be/ytCcpD84Jt0), and [Github Repository](https://github.com/mstoelen/GummiArm)
+> 2. SCARA Arm example, Pybot, opensource, [Hackaday writeup](https://hackaday.io/project/175419-pybot-scara-robotic-arm-3d-printed-python)
 > 3. What Bones are made of: NIH [webpage](https://www.niams.nih.gov/health-topics/what-bone#:~:text=Bone%20is%20made%20of%20protein,the%20bone%20can%20resist%20breaking.)
 > 4. What Robot Arms are made of: Makeitfrom [Aluminums](https://www.makeitfrom.com/material-properties/6061-AlMg1SiCu-3.3214-H20-A96061-Aluminum)
 > 5. Setup of UR Robot Arm: [universal robots video](https://video.universal-robots.com/ur-3-unboxing-video)
