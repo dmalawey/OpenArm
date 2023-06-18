@@ -38,6 +38,13 @@ Kinematics will not be easy as the motors, back-EMF, etc will cross-influence on
 
 *️⃣ As noted above, no encoders required but some measurement of torque or current or derivatives thereof will become part of the control loop in time.
 
+| State of the Art   | Benchtop Arm      | Mobile Arm |
+| ------------------ | ----------------- | ---------- |
+| ![img1](https://i.imgur.com/CmJoOIh.png) | ![img2](https://i.imgur.com/r9iqdeW.png) | ![img3](https://i.imgur.com/XRKMbMa.jpg) |
+| Privileged human with mobile power & two arms, sets robot with fixed power & one arm.  | Huge benchtop requires rigidity for reaction forces. | Mobile base capable of 15kg with arm only capable of 2.2kg TEMPORARILY. |
+
+_If you search high and low for mobile manipulators, the arms can lift only a fraction of the base's capability_
+
 ## How it started
 Ten years of pondering and working with robot arms, and CLICK! We can make them much better, and vastly less expensive.  Less rigid materials, less torque-intensive motors, and less fine control.  Here are some thoughts that came before the sketches.
 
@@ -111,14 +118,14 @@ Most robot arms have missed the point of arms, and we should improve on this.
 
 ### Credits
 
-I collected the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
+* I collected the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
 
 ### Sources
 
 > _Sources used to produce this documentation and project_
 >
 > 1. Markdown icons list [on github](https://gist.github.com/rxaviers/7360908#file-gistfile1-md)
-
+> 2. Enhance image resolution online [cutout.pro](https://www.cutout.pro/photo-enhancer-sharpener-upscaler/upload)
 
 ### References :mortar_board:
 
@@ -132,3 +139,7 @@ References are referred above using "R1" as to not interfere with markdown synta
 >  * [Hackaday writeup](https://hackaday.io/project/175419-pybot-scara-robotic-arm-3d-printed-python)
 > 3. What Bones are made of: NIH [webpage](https://www.niams.nih.gov/health-topics/what-bone#:~:text=Bone%20is%20made%20of%20protein,the%20bone%20can%20resist%20breaking.)
 > 4. What Robot Arms are made of: Makeitfrom [Aluminums](https://www.makeitfrom.com/material-properties/6061-AlMg1SiCu-3.3214-H20-A96061-Aluminum)
+> 5. Setup of UR Robot Arm: [universal robots video](https://video.universal-robots.com/ur-3-unboxing-video)
+> 6. Fixtures for UR Robot: [Vention.io](https://vention.io/designs/ur5-robot-tending-bench-35492)
+> 7. UR3e robot manual [PDF](https://s3-eu-west-1.amazonaws.com/ur-support-site/105370/99202_UR5_User_Manual_en_Global.pdf)
+> 8. Kinova Robot Arm Manual [PDF](https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view)
