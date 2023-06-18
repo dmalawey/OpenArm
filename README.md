@@ -73,7 +73,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 | 2         | Energy is unlimited, and plugged in                          | Energy is portable, arms are portable                                    |
 | 3         | Base receives high reaction forces.                          | Base sees no reaction forces OR reaction force contributes to the motion |
 |           | Base must be rigidly secured.                                | Base may move.                                                           |
-| 4         | Has rare materials like aircraft-aluminum                    | Has common materials like hydrocarbons.                                  |
+| 4         | Has rare materials like aircraft-aluminum                    | Has common materials like hydrocarbons.  :mortar_board: 3                |
 | 5         | Components cost is imbalanced:<br>Muscles > Joints > members | Components cost is balanced:<br>muscles = joints = members               |
 | 6         | Each joint receives independent control.                     | Joints are controlled together.                                          |
 
@@ -117,13 +117,15 @@ I collected the first parametric bearing part from Daniel Amuendo's design - his
 
 _To be listed_
 
-### References
+### References :mortar_board:
 
-References are referred above using "R1" as to not interfere with markdown syntax
+References are referred above using "R1" as to not interfere with markdown syntax :mortar_board:
 
 1. GummiArm Project: A Replicable & Variable-stiffness Robot Arm 
   * [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf)
   * [Youtube demonstration](https://youtu.be/ytCcpD84Jt0)
   * [Github Repository](https://github.com/mstoelen/GummiArm)
-2. Pybot Open Source SCARA Arm
+2. SCARA Arm example, Pybot, opensource
   * [Hackaday writeup](https://hackaday.io/project/175419-pybot-scara-robotic-arm-3d-printed-python)
+3. What Bones are made of: NIH [webpage](https://www.niams.nih.gov/health-topics/what-bone#:~:text=Bone%20is%20made%20of%20protein,the%20bone%20can%20resist%20breaking.)
+4. What Robot Arms are made of: Makeitfrom [Aluminums](https://www.makeitfrom.com/material-properties/6061-AlMg1SiCu-3.3214-H20-A96061-Aluminum)
