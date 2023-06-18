@@ -15,14 +15,20 @@ I am starting a design for a robot arm and invite the open community to collabor
 ## Characteristics:
 
 * 3D Printable + OTS
-* Modular - multi DOF
+* Modular - multi-DOF, selectable
 * Parametric - change the size as you wish
 * VERY affordable
 * Using DC motors, M2 Belts, and M2 pulleys like those of 3D printers
-* having no
+* having no encoders required
 * bio-inspired - having damping forces and torque stack additively along joints.
 * Digital Twin - the simulated design will represent the real implementation sufficiently to simulate
 * interchangeable motors & pulleys - the design leaves space internally for changes.
+
+### Mechanical
+* Payload Target = 1kg
+* Derived from SCARA configuration to enhance payload
+* Hope to derive encoder-like function of Motor "n" from measurement of reaction torque at motor "n-1"
+* All motor assemblies to be backdrivable
 
 ## AI Intentions
 Instead of encoders and highly precise motion at every joint, this arm is intended to control the end-effector like a person controls their hands.  We have a general sense of our elbow location but we don't perform fine control of the elbow to position the hands finely.  
@@ -83,6 +89,20 @@ Let's see if I can post an image of an early sketch:
   4. Videos - Let's post on youTube and link here in markdown.  I can build a playlist as it grows.
   5. Discussion - best place to discuss this, TBD.  Feel free to comment on any of our postings to begin.
 
-## Credits
+## References
+
+### Credits
 
 I collected the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
+
+### Sources
+
+_To be listed_
+
+### References
+
+References are referred above using "R1" as to not interfere with markdown syntax
+
+1. GummiArm Project: A Replicable & Variable-stiffness Robot Arm 
+  * [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf)
+  * [Youtube demonstration](https://youtu.be/ytCcpD84Jt0)
