@@ -108,3 +108,4 @@ References are referred above using "R1" as to not interfere with markdown synta
 1. GummiArm Project: A Replicable & Variable-stiffness Robot Arm 
   * [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf)
   * [Youtube demonstration](https://youtu.be/ytCcpD84Jt0)
+  * [Github Repository](https://github.com/mstoelen/GummiArm)
