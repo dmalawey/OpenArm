@@ -10,8 +10,8 @@ _An open-source robot arm_
 June 17: I am beginning design for a robot arm and invite the open community to collaborate.  Researchers, Makers, & Hackers Invited. 
 
 
-| Image1   | Image2     | Image 3 |
-| -------- | ---------- | -------- |
+| Bearing, affordable & printable   | Collar cross-section | Early conceptual sketch |
+| --------------------------------- | -------------------- | ----------------------- |
 | ![img1](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/42bde2079c49b20d65c9337484c22407/large.PNG) | ![img2](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/66d2971d7f5fd3bfa806faa31e257edc/large.png) | ![img3](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97336228ee94392cfc37916c0e548c0c/large.jpg) |
 
 
