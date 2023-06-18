@@ -5,7 +5,7 @@ _An open-source robot arm_
 | [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
 | 
 
-I am starting a design for a robot arm and invite the open community to collaborate on this.  
+June 17: I am beginning design for a robot arm and invite the open community to collaborate.  Researchers, Makers, & Hackers Invited. 
 
 | Image1   | Image2     | Image 3 |
 | -------- | ---------- | -------- |
@@ -15,25 +15,27 @@ I am starting a design for a robot arm and invite the open community to collabor
 ## Characteristics:
 
 * 3D Printable + OTS
-* Modular - multi-DOF, selectable
-* Parametric - change the size as you wish
 * VERY affordable
 * Using DC motors, M2 Belts, and M2 pulleys like those of 3D printers
-* having no encoders required
-* bio-inspired - having damping forces and torque stack additively along joints.
-* Digital Twin - the simulated design will represent the real implementation sufficiently to simulate
-* interchangeable motors & pulleys - the design leaves space internally for changes.
+* having no encoders required *️⃣
+* bio-inspired - having damping forces and torque stack additively along joints. 
+* Digital-Twin oriented - the simulated design shall represent the real implementation sufficiently to simulate motion.
+* interchangeable motors & pulleys - the joint geometry leaves space internally for changes.
 
 ### Mechanical
 * Payload Target = 1kg
 * Derived from SCARA configuration to enhance payload
 * Hope to derive encoder-like function of Motor "n" from measurement of reaction torque at motor "n-1"
 * All motor assemblies to be backdrivable
+* Modular - multi-DOF, selectable
+* Parametric - change the size as you wish
 
 ## AI Intentions
 Instead of encoders and highly precise motion at every joint, this arm is intended to control the end-effector like a person controls their hands.  We have a general sense of our elbow location but we don't perform fine control of the elbow to position the hands finely.  
 
 Kinematics will not be easy as the motors, back-EMF, etc will cross-influence one joint to another.  Instead, the bot is intended to evolve its performance through AI training (simulated and real-world).
+
+*️⃣ As noted above, no encoders required but some measurement of torque or current or derivatives thereof will become part of the control loop in time.
 
 ## How it started
 Ten years of pondering and working with robot arms, and CLICK! We can make them much better, and vastly less expensive.  Less rigid materials, less torque-intensive motors, and less fine control.  Here are some thoughts that came before the sketches.
