@@ -41,12 +41,17 @@ Kinematics will not be easy as the motors, back-EMF, etc will cross-influence on
 
 *️⃣ As noted above, no encoders required but some measurement of torque or current or derivatives thereof will become part of the control loop in time.
 
-| State of the Art   | Benchtop Arm      | Mobile Arm |
-| ------------------ | ----------------- | ---------- |
-| ![img1](https://i.imgur.com/CmJoOIh.png) | ![img2](https://i.imgur.com/r9iqdeW.png) | ![img3](https://i.imgur.com/XRKMbMa.jpg) |
-| Privileged human with mobile power & two arms, sets robot with fixed power & one arm.  | Huge benchtop requires rigidity for reaction forces. | Mobile base capable of 15kg with arm only capable of 2.2kg TEMPORARILY. |
+| State of the Art   | Benchtop Arm      | How the Robot Feels |
+| ------------------ | ----------------- | ------------------- |
+| ![UR3_setup](https://i.imgur.com/CmJoOIh.png) | ![UR3_benchtop](https://i.imgur.com/r9iqdeW.png) | ![snowboarder](https://i.imgur.com/ItancgQ.png) |
+| Privileged human with mobile power & two arms, sets robot with fixed power & one arm. 🎓7 | Rigid benchtop to counteract reaction forces. | Human withone arm, and feet strapped down. |
 
 _If you search high and low for mobile manipulators, the arms can lift only a fraction of the base's capability_
+
+| State of the art | How the Robot Feels |
+| ---------------- | ------------------- |
+| ![mobile manipulator](https://i.imgur.com/XRKMbMa.jpg) | ![atlas_stones_competition](https://i.imgur.com/xl4skYZ.jpg) |
+| mobile base capable of 15kg payload, with arm of 2.2kg payload 🎓8 | Competitor in Atlas Stones bodybuilding with a yoga ball |
 
 ## How it started
 Ten years of pondering and working with robot arms, and CLICK! We can make them much better, and vastly less expensive.  Less rigid materials, less torque-intensive motors, and less fine control.  Here are some thoughts that came before the sketches.
