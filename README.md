@@ -1,11 +1,13 @@
 # OpenArm
 _An open-source robot arm_
+**Purpose: to design an arm that is more modular, carries higher loads, and uses human-inspired dynamics more than current robot arms**
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
 | [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
 | 
 
 June 17: I am beginning design for a robot arm and invite the open community to collaborate.  Researchers, Makers, & Hackers Invited. 
+
 
 | Image1   | Image2     | Image 3 |
 | -------- | ---------- | -------- |
