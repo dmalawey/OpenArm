@@ -63,13 +63,28 @@ Let's see if I can post an image of an early sketch:
 
 # How You Can Help
 
-## Mechanical
+# Why you should help:
+
+Most robot arms have missed the point of arms, and we should improve on this.
+
+| Key Point | Our current robot arms:                                      | How God Designs arms:                                                    |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| 1         | One design = one product                                     | Make one design with many derivative instantiations                      |
+| 2         | Energy is unlimited, and plugged in                          | Energy is portable, arms are portable                                    |
+| 3         | Base receives high reaction forces.                          | Base sees no reaction forces OR reaction force contributes to the motion |
+|           | Base must be rigidly secured.                                | Base may move.                                                           |
+| 4         | Has rare materials like aircraft-aluminum                    | Has common materials like hydrocarbons.                                  |
+| 5         | Components cost is imbalanced:<br>Muscles > Joints > members | Components cost is balanced:<br>muscles = joints = members               |
+| 6         | Each joint receives independent control.                     | Joints are controlled together.                                          |
+
+
+## Mechanical Needs
 * Building: I could use builders in parallel or in series - plenty of mistakes will need resolutions.  You may build an early revision that becomes overwritten but I guarantee you won't build anything without learning.  I will be building this project one module at a time.  Then we will need to resize it for various budgets or tasks.
 * Design decisions: how much counterweight to add behind each joint?  where to place the counterweight?  Which parameters to build into the components vs build into the assemblies?  (does a long arm need just a longer member or a whole configuration of the assembly?  How can we input materials to keep the local center of gravity in the centerline of each joint?
 * Modeling:  Lots of modeling to do. We can collaborate in solidworks or begin the equivalent designs in Fusion360 or other popular software.  We want this design to be as open and repeatable as possible so multiple formats are desired.
 * Which nominal belts and pulleys are best suited, to leave space for increasing and decreasing the scale of the arm?  Are there kits to be bought in sets that have a high value, such as 3D printer actuators?
 
-## Electronics
+## Electronics Needs
 * Our starting point is a 12v dc motor from the SCUTTLE robot.  It's a gearmotor - but which is the best choice for a base publication?  How will we route the wires through each member?  Should we make a variation of the bearings that have a slip ring?  can we prototype a bearing that has a slip ring functioning?
 * Are there some off-the-shelf motor driver arrays from another application (like 3d printers, but for DC motors) that have a low-low cost?
 * Is it possible to plan for both DC and Stepper motors simultaneously?  How big of an electrical mess is made if we backdrive the stepper motors?
@@ -78,12 +93,12 @@ Let's see if I can post an image of an early sketch:
 * We wish to recapture energy (even tiny amounts) when the small arm swings and backdrives the larger member.  how can we switch responsively between motor driving, motor breaking, and energy recap?
 * Note: the purpose of energy recapture isn't to try to conserve all energy, it's to maintain in our models that the consumption will vary based on this - and gain understanding of the interactions so they can be modeled.
 
-## Software
+## Software Needs
 * which are the first models necessary to begin simulation?  what parameters do we need to output to help the simulation team operate effectively?  Are there some university or research courses currently operating on digital plans that we could offer this design to?  That's a win-win, then they could align their digital simulations with our design to give more meaning to their exercises.
 * What measurements should be taken at what frequency?  Can we get away with no encoders at all?  Perhaps with a top-down camera the whole system could be tested under machine-vision learning.
 * How should we assign variables and capture the performance metrics that come from software simulation?  What is the software control system, minimal-viable, that must be implemented to get a rough control scenario working on a real model?  Can we get away with something as cheap as an arduino?
 
-## Documentation
+## Documentation Needs
 * This project will be highly multidisciplinary in order to be successful.  To attract great talent, we need to make the physics & data very clear.  And to provide native design files for each element, as well as a clear BOM. 
 * My recommendations
   1. BOM itemS - directly here in the readme.md, in a markdown table
