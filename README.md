@@ -29,6 +29,7 @@ June 17: I am beginning design for a robot arm and invite the open community to 
 * All motor assemblies to be backdrivable
 * Modular - multi-DOF, selectable
 * Parametric - change the size as you wish
+* Rigid frame - components will not have intentional compliance or antagonistic actuators
 
 ## AI Intentions
 Instead of encoders and highly precise motion at every joint, this arm is intended to control the end-effector like a person controls their hands.  We have a general sense of our elbow location but we don't perform fine control of the elbow to position the hands finely.  
@@ -109,3 +110,5 @@ References are referred above using "R1" as to not interfere with markdown synta
   * [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf)
   * [Youtube demonstration](https://youtu.be/ytCcpD84Jt0)
   * [Github Repository](https://github.com/mstoelen/GummiArm)
+2. Pybot Open Source SCARA Arm
+  * [Hackaday writeup](https://hackaday.io/project/175419-pybot-scara-robotic-arm-3d-printed-python)
