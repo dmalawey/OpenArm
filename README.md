@@ -1,3 +1,5 @@
+![openarm banner](/img/banner_openArm.png)
+
 # OpenArm
 _An open-source robot arm_
 
