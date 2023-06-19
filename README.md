@@ -1,7 +1,7 @@
 # OpenArm
 _An open-source robot arm_
 
-**Purpose: to design an arm that is more modular, carries higher loads, and uses human-inspired dynamics more than current robot arms**
+> **Purpose: to design an arm that is more modular, carries higher loads, and uses human-inspired dynamics more than leading robot arms in 2023**
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
 | [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
@@ -78,7 +78,11 @@ Let's see if I can post an image of an early sketch:
 
 # How You Can Help
 
-# Why you should help:
+| [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
+| [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
+| 
+
+## Why you should help:
 
 Most robot arms have missed the point of arms, and we should improve on this.
 
@@ -123,6 +127,10 @@ Most robot arms have missed the point of arms, and we should improve on this.
   5. Discussion - best place to discuss this, TBD.  Feel free to comment on any of our postings to begin.
 
 ## References
+
+| [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
+| [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
+| 
 
 ### Credits
 
