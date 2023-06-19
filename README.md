@@ -1,7 +1,7 @@
 # OpenArm
 _An open-source robot arm_
 
-> **Purpose: to design an arm that is more modular, carries higher loads, and uses human-inspired dynamics more than leading robot arms in 2023**
+> **PURPOSE: to design a robot arm using bio-inspiration for higher modularity and higher loads than leading commercial designs in 2023.**
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
 | [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
