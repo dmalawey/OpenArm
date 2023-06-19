@@ -136,7 +136,10 @@ Most robot arms have missed the point of arms, and we should improve on this.
 
 ### Credits
 
-* I collected the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
+> _giving credit to prior works of art in this project_
+> 
+> * I collected the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
+>
 
 ### Sources
 
@@ -144,11 +147,12 @@ Most robot arms have missed the point of arms, and we should improve on this.
 >
 > 1. Markdown icons list [on github](https://gist.github.com/rxaviers/7360908#file-gistfile1-md)
 > 2. Enhance image resolution online [cutout.pro](https://www.cutout.pro/photo-enhancer-sharpener-upscaler/upload)
+> 3. Fonts from [Google Fonts](https://fonts.google.com/?query=robo)
 
 ### References :mortar_board:
 
-References are referred above using "R1" as to not interfere with markdown syntax :mortar_board:
-
+> _References are referred above using icon and number such as :mortar_board: 1
+>
 > 1. GummiArm Project: A Replicable & Variable-stiffness Robot Arm [PDF Journal article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8963345/pdf/fnbot-16-836772.pdf), [Youtube demo](https://youtu.be/ytCcpD84Jt0), and [Github Repository](https://github.com/mstoelen/GummiArm)
 > 2. SCARA Arm example, Pybot, opensource, [Hackaday writeup](https://hackaday.io/project/175419-pybot-scara-robotic-arm-3d-printed-python)
 > 3. What Bones are made of: NIH [webpage](https://www.niams.nih.gov/health-topics/what-bone#:~:text=Bone%20is%20made%20of%20protein,the%20bone%20can%20resist%20breaking.)
