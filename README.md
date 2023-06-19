@@ -50,7 +50,7 @@ _If you search high and low for mobile manipulators, the arms can lift only a fr
 
 | State of the art | How the Robot Feels |
 | ---------------- | ------------------- |
-| ![mobile manipulator](https://i.imgur.com/XRKMbMa.jpg) | ![atlas_stones_competition](https://i.imgur.com/xl4skYZ.jpg) |
+| ![mobile manipulator](https://i.imgur.com/XRKMbMa.jpg) | ![atlas_stones_competition](https://i.imgur.com/Kehy5rB.png) | 
 | mobile base capable of 15kg payload, with arm of 2.2kg payload 🎓8 | Competitor in Atlas Stones bodybuilding with a yoga ball |
 
 ## How it started
