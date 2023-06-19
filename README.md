@@ -134,7 +134,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
   4. Videos - Let's post on youTube and link here in markdown.  I can build a playlist as it grows.
   5. Discussion - best place to discuss this, TBD.  Feel free to comment on any of our postings to begin.
 
-## References
+# References
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
 | [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
