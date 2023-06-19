@@ -78,6 +78,12 @@ A photo album to begin sharing photos
 Let's see if I can post an image of an early sketch:
 ![sketch 1](https://photos.app.goo.gl/fd8ezmeAaVzynse1A)
 
+2023.06
+
+| Bearing loading with bb's, 4.5mm | Bearing on PVC, 60mm |
+| -------------------------------- | -------------------- |
+| ![Bearing 60mm on PVC](https://i.imgur.com/LkZPnL3.jpg) | ![bearing on pvc 60mm](https://i.imgur.com/jxDOoXf.jpg) |
+
 # How You Can Help
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
