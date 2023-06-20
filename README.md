@@ -19,13 +19,17 @@ June 17: I am beginning design for a robot arm and invite the open community to 
 
 ## Characteristics:
 
-* 3D Printable + OTS
+* Comprised of 3D Printable + OTS parts
 * VERY affordable
 * Using DC motors, M2 Belts, and M2 pulleys like those of 3D printers
-* having no encoders required *️⃣
-* bio-inspired - having damping forces and torque stack additively along joints. 
+* Having no encoders required *️⃣
+* Bio-inspired - having damping forces and torque relationships similar to a human arm. 
 * Digital-Twin oriented - the simulated design shall represent the real implementation sufficiently to simulate motion.
-* interchangeable motors & pulleys - the joint geometry leaves space internally for changes.
+* Parametric design - the geometry leaves space for variations and modifications of internals & frame.
+
+| Biological Sketch   | Biological sketch with motors identified | Robot Arm concept with motors |
+| --------------------------------- | -------------------- | ----------------------- |
+| ![davinci1](https://i.imgur.com/Er8ktKo.jpg) | ![davinci_markup](https://i.imgur.com/gCK8mfJ.png) | ![vitruvian_robot_arm](https://i.imgur.com/ZWqp03z.png) |
 
 ### Mechanical
 * Payload Target = 1kg
@@ -46,7 +50,7 @@ Kinematics will not be easy as the motors, back-EMF, etc will cross-influence on
 | State of the Art   | Benchtop Arm      | How the Robot Feels |
 | ------------------ | ----------------- | ------------------- |
 | ![UR3_setup](https://i.imgur.com/CmJoOIh.png) | ![UR3_benchtop](https://i.imgur.com/r9iqdeW.png) | ![snowboarder](https://i.imgur.com/ItancgQ.png) |
-| Privileged human with mobile power & two arms, sets robot with fixed power & one arm. 🎓7 | Rigid benchtop to counteract reaction forces. | Human withone arm, and feet strapped down. |
+| Privileged human (with 2 arms & mobile power supply), sets robot (one arm and fixed power supply). 🎓7 | Rigid benchtop to counteract reaction forces. | A human with one arm and feet strapped down. |
 
 _If you search high and low for mobile manipulators, the arms can lift only a fraction of the base's capability_
 
@@ -99,10 +103,10 @@ Most robot arms have missed the point of arms, and we should improve on this.
 | 1         | One design = one product                                     | Make one design with many derivative instantiations                      |
 | 2         | Energy is unlimited, and plugged in                          | Energy is portable, arms are portable                                    |
 | 3         | Base receives high reaction forces.                          | Base sees no reaction forces OR reaction force contributes to the motion |
-|           | Base must be rigidly secured.                                | Base may move.                                                           |
-| 4         | Has rare materials like aircraft-aluminum                    | Has common materials like hydrocarbons.  :mortar_board: 3                |
-| 5         | Components cost is imbalanced:<br>Muscles > Joints > members | Components cost is balanced:<br>muscles = joints = members               |
-| 6         | Each joint receives independent control.                     | Joints are controlled together.                                          |
+| 4         | Base must be rigidly secured.                                | Base may move.                                                           |
+| 5         | Has rare materials like aircraft-aluminum                    | Has common materials like hydrocarbons.  :mortar_board: 3                |
+| 6         | Components cost is imbalanced:<br>Muscles > Joints > members | Components cost is balanced:<br>muscles = joints = members               |
+| 7         | Each joint receives independent control.                     | Joints are controlled together.                                          |
 
 
 ## Mechanical Needs
@@ -144,7 +148,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 
 > _giving credit to prior works of art in this project_
 > 
-> 1. Daniel Amuendo's design ofo the first parametric bearing part from Daniel Amuendo's design - his channel is [Dangineering](https://www.youtube.com/@Dangineering) on youtube.  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
+> 1. Daniel Amuedo's design of the first parametric bearing, adapted for joints. His youtube channel is [Dangineering](https://www.youtube.com/@Dangineering).  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
 >
 
 ### Sources 📖
@@ -154,6 +158,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 > 1. Markdown icons list [on github](https://gist.github.com/rxaviers/7360908#file-gistfile1-md)
 > 2. Enhance image resolution online [cutout.pro](https://www.cutout.pro/photo-enhancer-sharpener-upscaler/upload)
 > 3. Fonts from [Google Fonts](https://fonts.google.com/?query=robo)
+> 4. Human Sketches from [Royal Collection Trust](https://www.rct.uk/collection/919013/the-muscles-of-the-shoulder-and-arm-recto-the-muscles-of-the-shoulder-and-arm-and)
 
 ### References :mortar_board:
 
@@ -167,3 +172,4 @@ Most robot arms have missed the point of arms, and we should improve on this.
 > 6. Fixtures for UR Robot: [Vention.io](https://vention.io/designs/ur5-robot-tending-bench-35492)
 > 7. UR3e robot manual [PDF](https://s3-eu-west-1.amazonaws.com/ur-support-site/105370/99202_UR5_User_Manual_en_Global.pdf)
 > 8. Kinova Robot Arm Manual [PDF](https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view)
+> 9. Leonardo Da Vinci, 1452 [Repository by RCT](https://www.rct.uk/collection/919013/the-muscles-of-the-shoulder-and-arm-recto-the-muscles-of-the-shoulder-and-arm-and)
