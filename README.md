@@ -6,7 +6,7 @@ _An open-source robot arm_
 > **PURPOSE: to design a robot arm using bio-inspiration for higher modularity and higher loads than leading commercial designs in 2023.**
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
-| [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
+| [Website](https://qr.page/g/2wY5JrxcciD ':class=button')
 | 
 
 June 17: I am beginning design for a robot arm and invite the open community to collaborate.  Researchers, Makers, & Hackers Invited. 
@@ -141,8 +141,8 @@ Most robot arms have missed the point of arms, and we should improve on this.
 # References
 
 | [Github Repo](https://github.com/dmalawey/OpenArm ':class=button') 
-| [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
-| 
+| [Website](https://qr.page/g/2wY5JrxcciD ':class=button')
+|
 
 ### Credits 🪙
 
