@@ -29,7 +29,7 @@ June 17: I am beginning design for a robot arm and invite the open community to 
 
 | Biological Sketch   | Biological sketch with motors identified | Robot Arm concept with motors |
 | --------------------------------- | -------------------- | ----------------------- |
-| ![davinci1](https://i.imgur.com/Er8ktKo.jpg) | ![davinci_markup](https://i.imgur.com/gCK8mfJ.png) | ![vitruvian_robot_arm](https://i.imgur.com/ZWqp03z.png) |
+| ![davinci1](https://i.imgur.com/8pUq4JF.jpg) | ![davinci_markup](https://i.imgur.com/iho4c2z.jpg) | ![vitruvian_robot_arm](https://i.imgur.com/e5CzMqP.jpg) |
 
 ### Mechanical
 * Payload Target = 1kg
