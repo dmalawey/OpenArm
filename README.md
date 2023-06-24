@@ -79,14 +79,20 @@ Soon I'll Post a video of the initial bearing assembly.
 A photo album to begin sharing photos
 [Google Photo Album](https://photos.app.goo.gl/zSo8spTBcs2SwBfr6 ':class=button')
 
-Let's see if I can post an image of an early sketch:
-![sketch 1](https://photos.app.goo.gl/fd8ezmeAaVzynse1A)
 
-2023.06
+**June 2023**
+
+June 20
 
 | Bearing loading with bb's, 4.5mm | Bearing on PVC, 60mm |
 | -------------------------------- | -------------------- |
 | ![Bearing 60mm on PVC](https://i.imgur.com/LkZPnL3.jpg) | ![bearing on pvc 60mm](https://i.imgur.com/jxDOoXf.jpg) |
+
+June 24
+
+| early CAD model | building joints |
+| --------------- | --------------- |
+| ![cad model](https://i.imgur.com/LkZPnL3.jpg) | ![PVC glue](https://i.imgur.com/woa0yzk.jpg) | ![5 bearings printed](https://i.imgur.com/ZZhuT2S.jpg)
 
 # How You Can Help
 
@@ -94,7 +100,7 @@ Let's see if I can post an image of an early sketch:
 | [Website](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/dmalawey/OpenArm/main&sidebar=true#/?show-page-options=true ':class=button')
 | 
 
-## Why you should help:
+## Why help?:
 
 Most robot arms have missed the point of arms, and we should improve on this.
 
