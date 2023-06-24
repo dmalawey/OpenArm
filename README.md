@@ -99,15 +99,15 @@ Here are some early open design files.
 
 June 20
 
-| Bearing loading with bb's, 4.5mm | Bearing on PVC, 60mm |
-| -------------------------------- | -------------------- |
-| ![Bearing 60mm on PVC](https://i.imgur.com/LkZPnL3.jpg) | ![bearing on pvc 60mm](https://i.imgur.com/jxDOoXf.jpg) |
+| Bearing loading with bb's, 4.5mm | Bearing on PVC, 60mm | Building Collars |
+| -------------------------------- | -------------------- | ---------------- |
+| ![Bearing 60mm on PVC](https://i.imgur.com/LxD7FG8.jpg) | ![bearing on pvc 60mm](https://i.imgur.com/3ticoLs.jpg) | [img](https://i.imgur.com/GXAsp22.jpg) |
 
 June 24
 
-| early CAD model | building joints |
+| early CAD model | gluing with PVC/ABS glue |
 | --------------- | --------------- |
-| ![cad model](https://i.imgur.com/LkZPnL3.jpg) | ![PVC glue](https://i.imgur.com/woa0yzk.jpg) | ![5 bearings printed](https://i.imgur.com/ZZhuT2S.jpg)
+| ![cad model](https://i.imgur.com/DGTnTfW.png) | ![PVC glue](https://i.imgur.com/uGdo5Hi.jpg) | ![5 bearings printed](https://i.imgur.com/ZZhuT2S.jpg)
 
 # How You Can Help
 
