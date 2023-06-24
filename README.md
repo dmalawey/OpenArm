@@ -66,14 +66,14 @@ The rigidity will be sufficient to perform simulations and learning without phys
 
 | State of the Art   | Benchtop Arm      | How the Robot Feels |
 | ------------------ | ----------------- | ------------------- |
-| ![UR3_setup](https://i.imgur.com/CmJoOIh.png) | ![UR3_benchtop](https://i.imgur.com/r9iqdeW.png) | ![snowboarder](https://i.imgur.com/ItancgQ.png) |
+| ![UR3_setup](https://i.imgur.com/QSIwgy6.png) | ![UR3_benchtop](https://i.imgur.com/r9iqdeW.png) | ![snowboarder](https://i.imgur.com/ItancgQ.png) |
 | Privileged human (with 2 arms & mobile power-supply), sets robot (one arm and fixed power supply). 🎓7 | Heavy Rigid fixture is required to counteract reaction forces. | A human with one arm and feet strapped down. |
 
 _If you search high and low for mobile manipulators, the arms can lift only a fraction of the base's capability_
 
 | State of the art | How the Robot Feels |
 | ---------------- | ------------------- |
-| ![mobile manipulator](https://i.imgur.com/XRKMbMa.jpg) | ![atlas_stones_competition](https://i.imgur.com/Kehy5rB.png) | 
+| ![mobile manipulator](https://i.imgur.com/0HHbPZ1.jpg) | ![atlas_stones_competition](https://i.imgur.com/Kehy5rB.png) | 
 | mobile base capable of 15kg payload, with arm of 2.2kg payload 🎓8 | Competitor in Atlas Stones bodybuilding with a yoga ball |
 
 ## How it started
