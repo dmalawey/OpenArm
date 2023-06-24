@@ -135,6 +135,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 * Design decisions: how much counterweight to add behind each joint?  where to place the counterweight?  Which parameters to build into the components vs build into the assemblies?  (does a long arm need just a longer member or a whole configuration of the assembly?  How can we input materials to keep the local center of gravity in the centerline of each joint?
 * Modeling:  Lots of modeling to do. We can collaborate in solidworks or begin the equivalent designs in Fusion360 or other popular software.  We want this design to be as open and repeatable as possible so multiple formats are desired.
 * Which nominal belts and pulleys are best suited, to leave space for increasing and decreasing the scale of the arm?  Are there kits to be bought in sets that have a high value, such as 3D printer actuators?
+* Energy regeneration is important.  How can we select a motor type which balances high performance with useful regeneration?  This video from [Oren's Projects on youtube](https://youtu.be/HmUrjAJ5_jA?t=389) shows that energy regeneration for common brushless motors is negligible when measured in voltage.  But, we need to measure in energy.  Do we need to stay with bipolar DC motors in order for energy to return during backdriving?
 
 ## Electronics
 * Our starting point is a 12v dc motor from the SCUTTLE robot.  It's a gearmotor - but which is the best choice for a base publication?  How will we route the wires through each member?  Should we make a variation of the bearings that have a slip ring?  can we prototype a bearing that has a slip ring functioning?
@@ -170,7 +171,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 > _giving credit to prior works and contributions_
 > 
 > 1. Daniel Amuedo's design of the first parametric bearing, adapted for joints. His youtube channel is [Dangineering](https://www.youtube.com/@Dangineering).  I revised his [original solidworks model](https://www.printables.com/model/263264-200mm-bore-5mm-bore-cheap-ultra-thin-parametric-ba/filess) to get my bearing to print nicely, then further changed it to become part of a collar joint.  Thanks Daniel!
->
+> 2. Oren's review on E-skateboard regenerative braking.  This data helps steer us to the right type of motor.  [Oren's Projects](https://youtu.be/HmUrjAJ5_jA?t=389)
 
 ## Sources 📖
 
