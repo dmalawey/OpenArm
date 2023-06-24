@@ -101,7 +101,7 @@ June 20
 
 | Bearing loading with bb's, 4.5mm | Bearing on PVC, 60mm | Building Collars |
 | -------------------------------- | -------------------- | ---------------- |
-| ![Bearing 60mm on PVC](https://i.imgur.com/LxD7FG8.jpg) | ![bearing on pvc 60mm](https://i.imgur.com/3ticoLs.jpg) | [img](https://i.imgur.com/GXAsp22.jpg) |
+| ![Bearing 60mm on PVC](https://i.imgur.com/LxD7FG8.jpg) | ![bearing on pvc 60mm](https://i.imgur.com/3ticoLs.jpg) | ![img](https://i.imgur.com/GXAsp22.jpg) |
 
 June 24
 
