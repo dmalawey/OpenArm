@@ -105,9 +105,23 @@ June 20
 
 June 24
 
-| early CAD model | gluing with PVC/ABS glue |
-| --------------- | --------------- |
+| early CAD model | gluing with PVC/ABS glue | Bearing tests 60mm & 89mm |
+| --------------- | ------------------------ | ------------------------- |
 | ![cad model](https://i.imgur.com/DGTnTfW.png) | ![PVC glue](https://i.imgur.com/uGdo5Hi.jpg) | ![5 bearings printed](https://i.imgur.com/ZZhuT2S.jpg)
+
+
+June 25
+
+| Steel balls, 9.5mm | Nylong Balls, 11.6mm | New CAD model - better parametrics |
+| ------------------ | -------------------- | ---------------------------------- |
+| ![cad model](https://i.imgur.com/uohBkZG.png) | ![cad model](https://i.imgur.com/uohBkZG.png) | ![cad model](https://i.imgur.com/uohBkZG.png) |
+
+The latest bearing uses these nylon balls from Amazon.com [link here](https://www.amazon.com/dp/B09WV4BZPC)
+
+Here's a video testing out the bearing after printing:
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/g5g48a-ZDeI" title="3D Printed Nylon Ball bearing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 # How You Can Help
 
