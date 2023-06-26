@@ -130,7 +130,8 @@ June 25
 
 | Steel balls, 9.5mm | Nylong Balls, 11.6mm | New CAD model - better parametrics |
 | ------------------ | -------------------- | ---------------------------------- |
-| ![cad model](https://i.imgur.com/uohBkZG.png) | ![cad model](https://i.imgur.com/uohBkZG.png) | ![cad model](https://i.imgur.com/uohBkZG.png) |
+| ![cad model](https://i.imgur.com/2KZN6c2.jpg) | ![cad model](https://i.imgur.com/QbB7Jv3.png) | ![cad model](https://i.imgur.com/uohBkZG.png) |
+
 
 The latest bearing uses these nylon balls from Amazon.com [link here](https://www.amazon.com/dp/B09WV4BZPC)
 
