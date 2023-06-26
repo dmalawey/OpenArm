@@ -92,11 +92,16 @@ Energy regeneration is possible if we use DC motors rather than stepper motors. 
 
 My first question: can energy regeneration be implemented with affordable OTS brushless motors?  If so, brushless outperforms brushed DC motors and is the way to go.
 
-On Youtube, Oren made a detailed analysis of recharging batteries on a brushless skateboard.  The [video is here](https://youtu.be/HmUrjAJ5_jA).   From my calculations, the best-case recharging trial yielded over 70% of the energy spent.  Power was lost during an uphill drive and regained during a ride back downhill.
+On Youtube, Oren made a detailed analysis of recharging batteries on a brushless skateboard (📖5) .  The [video is here](https://youtu.be/HmUrjAJ5_jA).   From my calculations, the best-case recharging trial yielded over 70% of the energy spent.  Power was lost during an uphill drive and regained during a ride back downhill.
 
 | Data for Analysis | Chart: Key Takeaway |
 | ----------------- | ------------------- |
 | [data](https://i.imgur.com/pLvsWPe.png) | [chart](https://i.imgur.com/pLvsWPe.png) |
+
+**Analysis 06.26:**
+
+This analysis compares a battery-recharging test with my data from a Li-ion cell (similar curves) to estimate percentages.  Data from a discharge of Li-ion cell from 4.12v starting, no-load voltage is compared with Oren's data from a LiPo cell from 4.18v starting, no-load voltage.  Oren's batteries lost 5% of 4.12v at hilltop, giving 3.98v.  To gather energy data, I found the corresponding 95% of my Li-ion cell starting voltage, giving 0.95 * 4.12 = 3.91v.  At this voltage, my cell's energy consumption was 27% of capacity.  (capacity, assuming 3.0v equals 0% capacity and 4.12v = 100% capacity, taken from true samples of mWh discharged). The energy level in WH was noted from the corresponding sample, giving 27% energy reduction.The same method was used to trace Oren's 96% voltage value back to it's coresponding energy level and we see the difference between these samples show 72% energy recovery.   72% of the lost energy was still available at the recovery voltage. The energy loss from 95 to 94% voltage represents more than 70% of the energy loss from 100 to 94% voltage, due to nonlinearity of the Li-ion and LiPo chemistry.
+
 
 # Build & Design Log
 
@@ -212,6 +217,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 > 2. Enhance image resolution online [cutout.pro](https://www.cutout.pro/photo-enhancer-sharpener-upscaler/upload)
 > 3. Fonts from [Google Fonts](https://fonts.google.com/?query=robo)
 > 4. Human Sketches from [Royal Collection Trust](https://www.rct.uk/collection/919013/the-muscles-of-the-shoulder-and-arm-recto-the-muscles-of-the-shoulder-and-arm-and)
+> 5. Energy Regeneration trials from youtube [Oren's Projects](https://youtu.be/HmUrjAJ5_jA)
 
 ## References :mortar_board:
 
