@@ -54,7 +54,7 @@ The rules of a bio-inspired robot arm design:
 > 9. Structure supports static loads. Actuators support dynamic loads.
 > 10. Force is never exerted with just one actuator.
 
-# AI ► Machine Learning
+# Machine Learning (AI)
 
 This arm is intended for learning & feedback.  Instead of encoders and highly precise motion at every joint, the end-effector works like a person controls her hands.  We have a general sense of our elbow location but we don't perform fine control of the elbow to position the hands finely.
 
@@ -76,11 +76,27 @@ _If you search high and low for mobile manipulators, the arms can lift only a fr
 | ![mobile manipulator](https://i.imgur.com/0HHbPZ1.jpg) | ![atlas_stones_competition](https://i.imgur.com/Kehy5rB.png) | 
 | mobile base capable of 15kg payload, with arm of 2.2kg payload 🎓8 | Competitor in Atlas Stones bodybuilding with a yoga ball |
 
+# Research Phase
+
 ## How it started
+
 Ten years of pondering and working with robot arms, and CLICK! We can make them much better, and vastly less expensive.  Less rigid materials, less torque-intensive motors, and less fine control.  Here are some thoughts that came before the sketches.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/5sXRnYCKep4" title="Human-inspired &amp; Bio-inspired concepts NOT found in state of the art Robots" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Energy Regeneration
+
+Energy regeneration is possible if we use DC motors rather than stepper motors.  A DC motor design is quite unique for a robot arm.  Usually stepper motors are used, except for extremely expensive encoded servos motors.
+
+**The main purpose is NOT to recharge the battery! It's to make voltage and current available during transient states while motors work in tandem.**
+
+My first question: can energy regeneration be implemented with affordable OTS brushless motors?  If so, brushless outperforms brushed DC motors and is the way to go.
+
+On Youtube, Oren made a detailed analysis of recharging batteries on a brushless skateboard.  The [video is here](https://youtu.be/HmUrjAJ5_jA).   From my calculations, the best-case recharging trial yielded over 70% of the energy spent.  Power was lost during an uphill drive and regained during a ride back downhill.
+
+| Data for Analysis | Chart: Key Takeaway |
+| ----------------- | ------------------- |
+| [data](https://i.imgur.com/pLvsWPe.png) | [chart](https://i.imgur.com/pLvsWPe.png) |
 
 # Build & Design Log
 
