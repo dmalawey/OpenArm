@@ -219,7 +219,7 @@ Most robot arms have missed the point of arms, and we should improve on this.
 > 4. Human Sketches from [Royal Collection Trust](https://www.rct.uk/collection/919013/the-muscles-of-the-shoulder-and-arm-recto-the-muscles-of-the-shoulder-and-arm-and)
 > 5. Energy Regeneration trials from youtube [Oren's Projects](https://youtu.be/HmUrjAJ5_jA)
 
-## References :mortar_board:
+## References 🎓
 
 > _References in the discussion_
 > These are referred above using icon and number such as :mortar_board: 1
