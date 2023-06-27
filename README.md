@@ -88,7 +88,9 @@ Ten years of pondering and working with robot arms, and CLICK! We can make them 
 
 Energy regeneration is possible if we use DC motors rather than stepper motors.  A DC motor design is quite unique for a robot arm.  Usually stepper motors are used, except for extremely expensive encoded servos motors.
 
-**The main purpose is NOT to recharge the battery! It's to make voltage and current available during transient states while motors work in tandem.**
+**The main purpose is NOT to recharge the battery! It is to A) make voltage and current available during transient states while motors work in tandem. B) to generate current in each actuator while other actuators move, giving a measurable parameter for realtime feedback.**
+
+Elaborating on realtime feedback: when we move the elbow, the shoulder feels a reaction.  We generate a current in the shoulder motor that communicates the elbow motion, and it also dampens the elbow motion.  Taking control of the "braking" force as a variable, we can adjust the damping and control the power returned for a given elbow motion. When the hand grips a mass, we can recompute the desired damping in realtime and maintain the dynamic response of the whole system, or manipulate it.  When a tennis plater strikes a backhand, the right (forward arm) tricep transitions from pulling to releasing, allowing the arm to swing behind the shoulder (no braking).  When you shift a transmition lever into park, the tricep behavior is much differnt although the wrist is controlling the kinematics.  These different dynamics can be implemented through full control of reaction forces.  Poewr generation will naturally be a function of  reaction forces.
 
 My first question: can energy regeneration be implemented with affordable OTS brushless motors?  If so, brushless outperforms brushed DC motors and is the way to go.
 
