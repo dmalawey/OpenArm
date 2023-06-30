@@ -84,7 +84,7 @@ Ten years of pondering and working with robot arms, and CLICK! We can make them 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/5sXRnYCKep4" title="Human-inspired &amp; Bio-inspired concepts NOT found in state of the art Robots" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Energy Regeneration
+## Energy Regen
 
 Energy regeneration is possible if we use DC motors rather than stepper motors.  A DC motor design is quite unique for a robot arm.  Usually stepper motors are used, except for extremely expensive encoded servos motors.
 
@@ -112,7 +112,15 @@ I found a benchmark on-hand so I went ahead and disassembled my Craftsman utilit
 | -------------- | --------- | -------- | ------------------ | -------------- |
 | ![slipring](https://i.imgur.com/nkjqnX5.jpg) | ![slipring](https://i.imgur.com/ug5mMmN.jpg) | ![slipring](https://i.imgur.com/k0VWEd7.jpg) | ![slipring](https://i.imgur.com/9PMD6mu.jpg) | ![slipring](https://i.imgur.com/im79b1v.jpg) |
 
+**Takeaways 06.30**
+1. This system lasted for 10 years!  I think that's a successful design to benchmark.
+2. The slip ring probably only carries a few miliamps.  It's unclear if the same setup could be used to power motors with 5-10 amps.
+3. The gaps are maintained fairly tightly (probably +/- 0.2mm) under operation, and the spring-backed contacts do a fine job of maintaining contact when the ring is spun.
+4. The threaded cap is made from copper or brass, coated with chrome.  It carries the ground path back to the jack from the LED panel.  The chrome was delaminating, but the copper worked fine after.
+5. This system carries up to 1 ton and can still rotate under load. However, there's a lot of friction: sliding action between the plastic film and the steel is the only way it spins.
+6. The electrical contacts consist of steel-on-steel or steel pins on whatever material is shown in the 2nd image.  Again there's a tradeoff of wear-resistance versus conductivity.
 
+ 
 # Build & Design Log
 
 ## June 2023
