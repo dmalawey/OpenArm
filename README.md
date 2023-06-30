@@ -104,6 +104,14 @@ On Youtube, Oren made a detailed analysis of recharging batteries on a brushless
 
 This analysis compares a battery-recharging test with my data from a Li-ion cell (similar curves) to estimate percentages.  Data from a discharge of Li-ion cell from 4.12v starting, no-load voltage is compared with Oren's data from a LiPo cell from 4.18v starting, no-load voltage.  Oren's batteries lost 5% of 4.12v at hilltop, giving 3.98v.  To gather energy data, I found the corresponding 95% of my Li-ion cell starting voltage, giving 0.95 * 4.12 = 3.91v.  At this voltage, my cell's energy consumption was 27% of capacity.  (capacity, assuming 3.0v equals 0% capacity and 4.12v = 100% capacity, taken from true samples of mWh discharged). The energy level in WH was noted from the corresponding sample, giving 27% energy reduction.The same method was used to trace Oren's 96% voltage value back to it's coresponding energy level and we see the difference between these samples show 72% energy recovery.   72% of the lost energy was still available at the recovery voltage. The energy loss from 95 to 94% voltage represents more than 70% of the energy loss from 100 to 94% voltage, due to nonlinearity of the Li-ion and LiPo chemistry.
 
+## Slip Ring
+
+I found a benchmark on-hand so I went ahead and disassembled my Craftsman utility jack which contains a slip ring.  They don't make it anymore but this design has LED's that spin with the plate where the jack lifts the car (crazy, right?)
+
+| Slip Ring Base | LED Panel | Contacts | Insulating Polymer | Working LED's |
+| -------------- | --------- | -------- | ------------------ | -------------- |
+| ![slipring](https://i.imgur.com/nkjqnX5.jpg) | ![slipring](https://i.imgur.com/ug5mMmN.jpg) | ![slipring](https://i.imgur.com/k0VWEd7.jpg) | ![slipring](https://i.imgur.com/9PMD6mu.jpg) | ![slipring](https://i.imgur.com/im79b1v.jpg) |
+
 
 # Build & Design Log
 
