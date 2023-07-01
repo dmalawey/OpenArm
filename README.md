@@ -48,11 +48,13 @@ The rules of a bio-inspired robot arm design:
 > 3. Everything which has an arm, has learning.
 > 4. Arms function without knowing the position of the feet.
 > 5. Joints have limited rotation angles.
-> 6. Every mass in an arm can contribute to a counterbalancing effort for motion.
-> 7. Linear motion takes place in pairs of links.
-> 8. The actuator of a joint is located in a superior link.
-> 9. Structure supports static loads. Actuators support dynamic loads.
-> 10. Force is never exerted with just one actuator.
+> 7. Every mass in an arm can contribute to a counterbalancing effort for motion.
+> 8. Linear motion takes place in pairs of links.
+> 9. The actuator of a joint is located in a superior link.
+> 10. Structure supports static loads. Actuators support dynamic loads.
+> 11. Force is never exerted with just one actuator.
+>
+> 5.1) * Rotation limit is set by tendons, which add strength & spring behavior.  
 
 # Machine Learning (AI)
 
