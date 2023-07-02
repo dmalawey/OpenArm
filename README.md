@@ -102,6 +102,12 @@ On Youtube, Oren made a detailed analysis of recharging batteries on a brushless
 | ----------------- | ------------------- |
 | ![data](https://i.imgur.com/ShzraEz.png) | ![chart](https://i.imgur.com/pLvsWPe.png) |
 
+## Tendons & Ligaments
+
+In biology, ligaments attach bone to bone, and tendons attach bone to muscle or otherwise serve mobility 🎓8. As of 2023.07, it's undecided whether to design with rigidity for attachments of motors and joints to the structure.  If the robot is given hard mechanical stops, it creates discrete discontinuities in the mobility and would be nonoptimal for machine learning.  If we introduce endstops that are elastic, then two benefits arrive: First, the end-stop behavior is continuous, and second, extra strength can assist the actuators near the limits.  (If you spread your arms and walk through a doorway, you can put a force on the door frame without using your pectoral muscles - that's the tendons helping you exert force for free - instead of using your own energy, you use a "spring force" which simply conservation of energy.  You recover your energy from the walking motion and load that into the spring which is in your shoulder.   
+
+
+
 **Analysis 06.26:**
 
 This analysis compares a battery-recharging test with my data from a Li-ion cell (similar curves) to estimate percentages.  Data from a discharge of Li-ion cell from 4.12v starting, no-load voltage is compared with Oren's data from a LiPo cell from 4.18v starting, no-load voltage.  Oren's batteries lost 5% of 4.12v at hilltop, giving 3.98v.  To gather energy data, I found the corresponding 95% of my Li-ion cell starting voltage, giving 0.95 * 4.12 = 3.91v.  At this voltage, my cell's energy consumption was 27% of capacity.  (capacity, assuming 3.0v equals 0% capacity and 4.12v = 100% capacity, taken from true samples of mWh discharged). The energy level in WH was noted from the corresponding sample, giving 27% energy reduction.The same method was used to trace Oren's 96% voltage value back to it's coresponding energy level and we see the difference between these samples show 72% energy recovery.   72% of the lost energy was still available at the recovery voltage. The energy loss from 95 to 94% voltage represents more than 70% of the energy loss from 100 to 94% voltage, due to nonlinearity of the Li-ion and LiPo chemistry.
@@ -252,5 +258,6 @@ Most robot arms have missed the point of arms, and we should improve on this.
 > 5. Setup of UR Robot Arm: [universal robots video](https://video.universal-robots.com/ur-3-unboxing-video)
 > 6. Fixtures for UR Robot: [Vention.io](https://vention.io/designs/ur5-robot-tending-bench-35492)
 > 7. UR3e robot manual [PDF](https://s3-eu-west-1.amazonaws.com/ur-support-site/105370/99202_UR5_User_Manual_en_Global.pdf)
-> 8. Kinova Robot Arm Manual [PDF](https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view)
-> 9. Leonardo Da Vinci, 1452 [Repository by RCT](https://www.rct.uk/collection/919013/the-muscles-of-the-shoulder-and-arm-recto-the-muscles-of-the-shoulder-and-arm-and)
+> 8. Chicken wing dissection [PDF guide](https://assist.asta.edu.au/sites/assist.asta.edu.au/files/SOP%20Performing%20a%20chicken%20wing%20dissection.pdf)
+> 9. Kinova Robot Arm Manual [PDF](https://drive.google.com/file/d/1xQbkx1-v3SfAentKR9f3p3c2SVdViyQl/view)
+> 10. Leonardo Da Vinci, 1452 [Repository by RCT](https://www.rct.uk/collection/919013/the-muscles-of-the-shoulder-and-arm-recto-the-muscles-of-the-shoulder-and-arm-and)
