@@ -106,7 +106,7 @@ On Youtube, Oren made a detailed analysis of recharging batteries on a brushless
 
 In biology, ligaments attach bone to bone, and tendons attach bone to muscle or otherwise serve mobility 🎓8. As of 2023.07, it's undecided whether to design with rigidity for attachments of motors and joints to the structure.  If the robot is given hard mechanical stops, it creates discrete discontinuities in the mobility and would be nonoptimal for machine learning.  If we introduce endstops that are elastic, then two benefits arrive: First, the end-stop behavior is continuous, and second, extra strength can assist the actuators near the limits.  (If you spread your arms and walk through a doorway, you can put a force on the door frame without using your pectoral muscles - that's the tendons helping you exert force for free - instead of using your own energy, you use a "spring force" which simply conservation of energy.  You recover your energy from the walking motion and load that into the spring which is in your shoulder.   
 
-
+Implementation of rubber, silicone, or actual springs are worth considering throughout the design.  Muscle/bone attachment may manifest in the form of rubber pulleys instead of gears in the geartrain.  Rotation-limiting elastic would do a similar job to tendons at the end-stop configurations.
 
 **Analysis 06.26:**
 
