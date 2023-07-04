@@ -68,7 +68,7 @@ The rigidity will be sufficient to perform simulations and learning without phys
 
 | State of the Art   | Benchtop Arm      | How the Robot Feels |
 | ------------------ | ----------------- | ------------------- |
-| ![UR3_setup](https://i.imgur.com/sGHIGWE.jpg) | ![UR3_benchtop](https://i.imgur.com/r9iqdeW.png) | ![snowboarder](https://i.imgur.com/kWtVqm7.jpg) |
+| ![UR3_setup](https://i.imgur.com/QSIwgy6.png) | ![UR3_benchtop](https://i.imgur.com/r9iqdeW.png) | ![snowboarder](https://i.imgur.com/kWtVqm7.jpg) |
 | Privileged human (with 2 arms & mobile power-supply), sets robot (one arm and fixed power supply). 🎓7 | Heavy Rigid fixture is required to counteract reaction forces. | A human with one arm and feet strapped down. |
 
 _If you search high and low for mobile manipulators, the arms can lift only a fraction of the base's capability_
