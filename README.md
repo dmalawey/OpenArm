@@ -111,7 +111,7 @@ On Youtube, Oren made a detailed analysis of recharging batteries on a brushless
 
 | Data for Analysis | Chart: Key Takeaway |
 | ----------------- | ------------------- |
-| ![data](https://i.imgur.com/ShzraEz.png) | ![chart](https://i.imgur.com/pLvsWPe.png) |
+| ![data](https://i.imgur.com/ShzraEz.png) | ![chart](https://i.imgur.com/ITLWwmN.png) |
 
 ## Tendons & Ligaments
 
