@@ -19,12 +19,13 @@ June 17: I am beginning design for a robot arm and invite the open community to 
 
 ## Characteristics
 
+Version 1
 * Comprised of 3D Printable + OTS parts
-* VERY affordable
+* Less than $150 in components
 * Using DC motors, M2 Belts, and M2 pulleys like those of 3D printers
 * Having no encoders required *️⃣
 * Bio-inspired - having damping forces and torque relationships similar to a human arm. 
-* Digital-Twin oriented - the simulated design shall represent the real implementation sufficiently to simulate motion.
+* Digital-twin oriented - the simulated design shall represent the real implementation sufficiently to simulate motion.
 * Parametric design - the geometry leaves space for variations and modifications of internals & frame.
 
 | Biological Sketch   | Biological sketch with motors identified | Robot Arm concept with motors |
