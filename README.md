@@ -107,7 +107,7 @@ Elaborating on realtime feedback: when we move the elbow, the shoulder feels a r
 
 My first question: can energy regeneration be implemented with affordable OTS brushless motors?  If so, brushless outperforms brushed DC motors and is the way to go.
 
-On Youtube, Oren made a detailed analysis of recharging batteries on a brushless powered skateboard (📖5) .  The [video is here](https://youtu.be/HmUrjAJ5_jA).   From my calculations, the best-case recharging trial yielded over 70% of the energy spent.  Power was lost during an uphill drive and regained during a ride back downhill.
+On Youtube, Oren made a detailed analysis of recharging batteries on a brushless powered skateboard (📖5) .  The [video is here](https://youtu.be/HmUrjAJ5_jA).   From my calculations, the best-case recharging trial recovered nearly 30% of spent energy.  Power was spent during an uphill drive and recovered by braking during during the downhill return.
 
 | Data for Analysis | Chart: Key Takeaway |
 | ----------------- | ------------------- |
