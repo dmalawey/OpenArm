@@ -182,6 +182,15 @@ Here's a video testing out the bearing after printing:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/g5g48a-ZDeI" title="3D Printed Bearing with Nylon Balls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## October 2023
+
+October 15
+
+| Prototype 2DOF | Prototype 2DOF |
+| ------------------ | -------------------------- |
+| ![proto](https://i.imgur.com/8lMNrTj.jpg)) | ![proto2DOF](https://i.imgur.com/oqLZyIe.jpg) | 
+
+This assembly moves nicely - now, deciding on the bearings and the motors will depend on the lifting task we wish to perform.  We can give more diameter to the members for greater rigidity, or make it light and fast.
 
 # How You Can Help
 
