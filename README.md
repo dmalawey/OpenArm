@@ -90,6 +90,16 @@ A concept for method of achieving motion control without encoders or extreme rig
 * Stage 2) use the math relationships from stage 1 on a robot with no encoders and no overhead camera to command actuators. Moving from “home” to any fixed position could be achieved within 5 degrees for each joint. With this method, move the wrist near a flower of known position relative to “home.”
 * Stage 2 step 2) activate a low resolution wrist-mounted camera to adjust wrist and fingers, along with simple kinematics and known models, to pluck a pedal.
 
+## Learning for Self-Design
+
+(2023.10.18)
+
+What if the robot can design itself for each application? I almost forgot to disclose this part of the discussion:  **Multidisciplinary Design Optimization,** or MDO for short, is a recent field in engineering that leverages computational power to co-optimize systems with interacting subsystems.  In a robot, some systems are power, mass, articulation, rigidity, among other aspects that can have severe tradeoffs when optimized independently.  For complex systems, an expert may find a great solution to optimize one aspect but is not fully aware of it's cross-interactions on other aspects.  One solution is to create a computer model which combines other models.  
+
+In 2015 I took an amazing MDO course in the mechanical engineering department taught by Dr. Douglas Allaire at Texas A&M.  This subject was so inspiring that it became core to my [masters' thesis](https://oaktrust.library.tamu.edu/handle/1969.1/174238).  The approach of mathematically optimizing a system of systems takes a great deal of pre-calculation but there is one magical outcome:  After building the optimizer, we can adjust the constraints or the application for which our system is intended, and it will re-compute the optimal design.  Imagine selecting the best components for your new gaming PC build, for the overall best price and best metrics that you ask for.  Then, use the same optimizer to re-select parts for your colleagues CAD workstation.  This approach is a perfect pairing for a design like OpenArm and [SCUTTLE](https://www.scuttlerobot.org) which are highly modular and intended for broad applications.
+
+After some progress is made, it will make sense to build an MDO solver around the OpenArm, and [SCUTTLE](https://scuttlerobot.org), and perhaps the combination of the two.
+
 # Research Phase
 
 ## How it started
