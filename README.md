@@ -197,10 +197,21 @@ Here's a video testing out the bearing after printing:
 October 15
 
 | Prototype 2DOF | Prototype 2DOF |
-| ------------------ | -------------------------- |
+| -------------- | -------------- |
 | ![proto](https://i.imgur.com/8lMNrTj.jpg)) | ![proto2DOF](https://i.imgur.com/oqLZyIe.jpg) | 
 
 This assembly moves nicely - now, deciding on the bearings and the motors will depend on the lifting task we wish to perform.  We can give more diameter to the members for greater rigidity, or make it light and fast.
+
+October 20
+
+| Quick Render| Motor Dimensions |
+| ----------- | ---------------- |
+| ![motor model](https://i.imgur.com/mhCejSM.png) | ![dimensions](https://i.imgur.com/8lfM9Xy.png) | 
+
+Myself and collaborators went ahead and ordered a brushless motor to test integration.  This does not preclude us from using steppers or DC brushed motors later.   This month's challenge will be to look for the most elegant integration that leaves us with a parametric assembly.  Let's tie in these motors in such a way that changing motors will not pin down the design to one geometry.
+
+**Unidirectional** By accident, we picked a controller (usually for RC planes) which spins only one direction.  At first it was a mistake - now I am on a thinking path about keeping it.  Your bicep only actuates in one direction.  Maybe that's a clever way to design a robot as well!  Later I can discuss how this could be an advantage.
+
 
 # How You Can Help
 
