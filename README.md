@@ -55,7 +55,20 @@ The rules of a bio-inspired robot arm design:
 > 10. Structure supports static loads. Actuators support dynamic loads.
 > 11. Force is never exerted with just one actuator.
 >
-> 5.1) * Rotation limit is set by tendons, which add strength & spring behavior.  
+> 5.1) * Rotation limit is set by tendons, which add strength & spring behavior.
+
+
+### Rule for Precision
+2023.11.14
+
+Extreme precision will be engineered at low cost.
+
+![laser pointer](https://m.media-amazon.com/images/I/61X6oZhH-YL._AC_SL1500_.jpg ':class=image-40')
+
+Extreme precision at low cost:  Expensive modern arms range have a massive waste in design effort. The goal of precision is at the end-effector, nowhere else.  Modern industrial robots cost so much because they mechanically solve a problem that should be solved computationally.  Each joint is built with extremely fine tolerances, which stack up so that the 1mm movement at the wrist requires a 0.01mm precision at the shoulder.  In contrast, a human being peeling tying a fishing knot requires sub-milimeter precision while the elbow is free to move about.  This is the way.  
+
+As Elon once said "Engineers are extremely good at optimizing solutions that shouldn't exist in the first place.  Designers have already solved 1mm accuracy at 100 meters lever arm length, for 20 USD. You'll find in a product such as a firearm [laser pointer](https://www.amazon.com/gp/product/B019Q05CNY), small knobs that make such a fine adjustment.  A $5 servo is capable of controlling these knobs.  Combining them is not difficult.  The rule here is that OpenArm elements will not be given precision and high-effort engineering in achieving what is already designed and available for purchase. At each moment that we stumble on a goal requiring very high effort, we will ask if that goal serves the robot function or if it simply serves to help with another goal.  By this question, we can biforcate between the useful from the useless targets, and design only useful modules.
+
 
 # Machine Learning (AI)
 
@@ -67,11 +80,6 @@ The rigidity will be sufficient to perform simulations and learning without phys
 
 *️⃣ As noted above, no encoders required but some measurement of torque or current or derivatives thereof will become part of the control loop in time.
 
-# Precision
-
-![laser pointer](https://m.media-amazon.com/images/I/61X6oZhH-YL._AC_SL1500_.jpg ':class=image-25')
-
-Extreme precision at low cost:  Expensive modern arms range have a massive waste in design effort. The goal of precision is at the end-effector, nowhere else.  Modern industrial robots cost so much because they mechanically solve a problem that should be solved computationally.  Each joint is built with extremely fine tolerances, which stack up so that the 1mm movement at the wrist requires a 0.01mm precision at the shoulder.  A human being peeling tying a fishing knot requires sub milimeter precision while ignoring the elbow.  This is the way.  As Elon once said "Engineers are extremely good at optimizing solutions that shouldn't exist in the first place.  Designers have already solved 1mm accuracy at 100 meters lever arm length, for $20.  You'll find in a product such as a firearm [laser pointer](https://www.amazon.com/gp/product/B019Q05CNY), small knobs that make such a fine adjustment.  A $5 servo is capable of controlling these knobs.  Combining them is not difficult.  The rule here is that OpenArm elements will not be given precision and high-effort engineering in achieving what is already designed and available for purchase.  At each moment that we stumble on a goal requiring very high effort, we will ask if that goal serves the robot function or if it simply serves to help with another goal.  By this question, we can biforcate the useful from the useless and design only useful modules.
 
 | State of the Art   | Benchtop Arm      | How the Robot Feels |
 | ------------------ | ----------------- | ------------------- |
