@@ -9,14 +9,6 @@ _An open-source robot arm_
 | [Website](https://qr.page/g/2wY5JrxcciD ':class=button')
 | 
 
-June 17: I am beginning design for a robot arm and invite the open community to collaborate.  Researchers, Makers, & Hackers Invited. 
-
-
-| Bearing, affordable & printable   | Collar cross-section | Early conceptual sketch |
-| --------------------------------- | -------------------- | ----------------------- |
-| ![img1](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/42bde2079c49b20d65c9337484c22407/large.PNG) | ![img2](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/66d2971d7f5fd3bfa806faa31e257edc/large.png) | ![img3](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97336228ee94392cfc37916c0e548c0c/large.jpg) |
-
-
 ## Characteristics
 
 Version 1
@@ -167,6 +159,22 @@ I found a benchmark on-hand so I went ahead and disassembled my Craftsman utilit
  
 # Build & Design Log
 
+## December 2023
+
+### Dec 29, 2023
+
+Yesterday I had the pleasure of meeting Dr. David Surovik, employee 11 of Boston Dynamics' AI Institute.  He's actually a family member of a Texan friend of mine. This type of interaction (frequent, short meetings with deep experts) is critical, as robotics evolves so quickly.  Sometimes it evolves backwards, so we need to interact to avoid local minima.
+
+My key "download" was basically the state of the art for robotics AI - there are some very ethical, good, hardworking people in the leading companies and the biggest question is regarding direction (what do we work on for the 5-year goal?) but everyone is doing their best.  I'm pleased to say there's nothing I learned that refutes the direction I'm establishing with OpenArm and SCUTTLE - that's great news.
+
+### Dec 26, 2023
+
+I've unburied my 2016 masters' thesis on Multidisciplinary Design Optimization of a Cubesat - an essential step in my understanding of how we will make robotics that evolve over time, and advance towards optimality.
+
+You can find the video and a thoughtful description here in the youtube video:
+
+[VIDEO LINK](https://youtu.be/XbSdwpLa4j4)
+
 ## June 2023
 
 **Getting Started**
@@ -205,6 +213,13 @@ The latest bearing uses these nylon balls from Amazon.com [link here](https://ww
 Here's a video testing out the bearing after printing:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/g5g48a-ZDeI" title="3D Printed Bearing with Nylon Balls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+June 17: I am beginning modular design elements according with our "rules" and inviting the open community to collaborate.  Researchers, Makers, & Hackers Invited. 
+
+
+| Bearing, affordable & printable   | Collar cross-section | Early conceptual sketch |
+| --------------------------------- | -------------------- | ----------------------- |
+| ![img1](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/42bde2079c49b20d65c9337484c22407/large.PNG) | ![img2](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/66d2971d7f5fd3bfa806faa31e257edc/large.png) | ![img3](https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/97336228ee94392cfc37916c0e548c0c/large.jpg) |
 
 ## October 2023
 
