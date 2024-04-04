@@ -9,6 +9,10 @@ _An open-source robot arm_
 | [Website](https://qr.page/g/2wY5JrxcciD ':class=button')
 | 
 
+## Foreword
+
+If an expert reviews this project intro, they will find numerous imperfections; potentially laughable ones.  A well-trained mechanical engineer would not _release_ such imperfections. But this project is not a release, just as every script posted in open software is not a final working script. We are pursuing a new paradigm, where open hardware ascends to match open software.  __In software, open development has surpassed privatized development.__ Developers discovered by publishing every step in realtime, we gain the world's contribution at every step, and 10,000 brilliant minds can outperform a well-paid team of 10 minds.  The only way to reach the new paradigm is to opensource the full development process, not only the end result.  So, we start the project with a goal and NOT with a build, and we trust experts to see the possibilities instead of the present status.  Then, we can incite the collaboration necessary to achieve the impossible.
+
 ## Characteristics
 
 Version 1
