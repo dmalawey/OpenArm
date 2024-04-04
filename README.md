@@ -11,25 +11,26 @@ _An open-source robot arm_
 
 ## Foreword
 
-If an expert reviews this project intro, they will find numerous imperfections; potentially laughable ones.  A well-trained mechanical engineer would not _release_ such imperfections. But this project is not a release, just as every script posted in open software is not a final working script. We are pursuing a new paradigm, where open hardware ascends to match open software.  __In software, open development has surpassed privatized development.__ Developers discovered by publishing every step in realtime, we gain the world's contribution at every step, and 10,000 brilliant minds can outperform a well-paid team of 10 minds.  The only way to reach the new paradigm is to opensource the full development process, not only the end result.  So, we start the project with a goal and NOT with a build, and we trust experts to see the possibilities instead of the present status.  Then, we can incite the collaboration necessary to achieve the impossible.
+If an expert reviews this project, they will find numerous imperfections; potentially laughable ones.  A well-trained mechanical engineer would not _release_ such imperfections. But this project is not a release, just as every script posted in open software is not a final working script. We are pursuing a new paradigm, where open hardware ascends to match open software.  __In software, open development has surpassed privatized development.__ Developers discovered by publishing every step in realtime, we gain the world's contribution at every step, and 10,000 brilliant minds can outperform a well-paid team of 10 minds.  The only way to reach the new paradigm is to opensource the full development process, not only the end result.  So, we start the project with a goal and NOT with a build, and we trust experts to see the possibilities instead of the present status.  Then, we can incite the collaboration necessary to achieve the impossible.
+
+There is no intention to reproduce a result that has existed before, so the result cannot be bought.  There is no deadline.  The prerequisite to completion is expertise, not funding or parts or tools.
 
 ## Characteristics
 
 Version 1
-* Comprised of 3D Printable + OTS parts
-* Less than $150 in components
-* Using DC motors, M2 Belts, and M2 pulleys like those of 3D printers
-* Having no encoders required *️⃣
 * Bio-inspired - having damping forces and torque relationships similar to a human arm. 
 * Digital-twin oriented - the simulated design shall represent the real implementation sufficiently to simulate motion.
 * Parametric design - the geometry leaves space for variations and modifications of internals & frame.
+* Having no encoders required *️⃣
+
+An initial builds should aim for low cost, usually achieved with 3D Printable + OTS parts.  It should serve to validate dynamics models, test feedback control functions, establish parameters for further development. Ie, instead of aiming for a torque at a joint, we derive a dynamic function that better relates to the capability of end-effector.  A system using DC motors, M2 Belts, and M2 pulleys like those of 3D printers is likely to serve the purpose of a first build.  A 1-kg payload target is well-matched to this hardware.
+
 
 | Biological Sketch   | Biological sketch with motors identified | Robot Arm concept with motors |
 | --------------------------------- | -------------------- | ----------------------- |
 | ![davinci1](https://i.imgur.com/8pUq4JF.jpg) | ![davinci_markup](https://i.imgur.com/iho4c2z.jpg) | ![vitruvian_robot_arm](https://i.imgur.com/e5CzMqP.jpg) |
 
 ### Mechanical
-* Payload Target = 1kg
 * Derived from SCARA configuration to enhance payload
 * Hope to derive encoder-like function of Motor "n" from measurement of reaction torque at motor "n-1"
 * All motor assemblies to be backdrivable
@@ -57,13 +58,13 @@ The rules of a bio-inspired robot arm design:
 ### Rule for Precision
 2023.11.14
 
-Extreme precision will be engineered at low cost.
+Extreme precision will be engineered at low cost.  How?
 
 ![laser pointer](https://m.media-amazon.com/images/I/61X6oZhH-YL._AC_SL1500_.jpg ':class=image-40')
 
-Extreme precision at low cost:  Expensive modern arms range have a massive waste in design effort. The goal of precision is at the end-effector, nowhere else.  Modern industrial robots cost so much because they mechanically solve a problem that should be solved computationally.  Each joint is built with extremely fine tolerances, which stack up so that the 1mm movement at the wrist requires a 0.01mm precision at the shoulder.  In contrast, a human being peeling tying a fishing knot requires sub-milimeter precision while the elbow is free to move about.  This is the way.  
+Extreme precision at low cost:  Expensive modern arms range have a massive waste in design effort, demanding intensive precision from a mechanical team and only subsequently passing the system to a software team. The goal of precision is at the end-effector, nowhere else. Modern industrial robots cost so much because they mechanically solve a problem that should be solved computationally.  Each joint is built with extremely fine tolerances, which stack up so that the 1mm movement at the wrist requires a 0.01mm precision at the shoulder.  In contrast, a human being tying a fishing knot requires sub-milimeter precision while the elbow is free to deviate broadly.  This is the right way.  
 
-As Elon once said "Engineers are extremely good at optimizing solutions that shouldn't exist in the first place.  Designers have already solved 1mm accuracy at 100 meters lever arm length, for 20 USD. You'll find in a product such as a firearm [laser pointer](https://www.amazon.com/gp/product/B019Q05CNY), small knobs that make such a fine adjustment.  A $5 servo is capable of controlling these knobs.  Combining them is not difficult.  The rule here is that OpenArm elements will not be given precision and high-effort engineering in achieving what is already designed and available for purchase. At each moment that we stumble on a goal requiring very high effort, we will ask if that goal serves the robot function or if it simply serves to help with another goal.  By this question, we can biforcate between the useful from the useless targets, and design only useful modules.
+As Elon once said "Engineers are extremely good at optimizing solutions that shouldn't exist in the first place."  Designers have already solved 1mm accuracy at 100 meters lever arm length, for 20 USD. You'll find in a product such as a firearm [laser pointer](https://www.amazon.com/gp/product/B019Q05CNY), small knobs that make such a fine adjustment.  A $5 servo is capable of controlling these knobs.  Combining them is not difficult.  The rule here is that OpenArm elements will not be given precision and high-effort engineering in achieving what is already designed and available for purchase. At each moment that we stumble on a goal requiring very high effort, we will ask if that goal serves the robot function or if it simply serves to help with another goal.  By this question, we can biforcate between the useful from the useless targets, and design only useful modules.
 
 
 # Machine Learning (AI)
@@ -124,7 +125,7 @@ Energy regeneration is possible if we use DC motors rather than stepper motors. 
 
 **The main purpose is NOT to recharge the battery! It is to A) make voltage and current available during transient states while motors work in tandem. B) to generate current in each actuator while other actuators move, giving a measurable parameter for realtime feedback.**
 
-Elaborating on realtime feedback: when we move the elbow, the shoulder feels a reaction.  We generate a current in the shoulder motor that communicates the elbow motion, and it also dampens the elbow motion.  Taking control of the "braking" force as a variable, we can adjust the damping and control the power returned for a given elbow motion. When the hand grips a mass, we can recompute the desired damping in realtime and maintain the dynamic response of the whole system, or manipulate it.  When a tennis plater strikes a backhand, the right (forward arm) tricep transitions from pulling to releasing, allowing the arm to swing behind the shoulder (no braking).  When you shift a transmition lever into park, the tricep behavior is much differnt although the wrist is controlling the kinematics.  These different dynamics can be implemented through full control of reaction forces.  Poewr generation will naturally be a function of  reaction forces.
+Elaborating on realtime feedback: when we move the elbow, the shoulder feels* a reaction.  We can (in robot) generate a current in the shoulder motor that communicates the elbow motion, and it also dampens the elbow motion.  Taking control of the "braking" force as a variable, we can adjust the damping and control the power returned for a given elbow motion. When the hand grips a mass, we can recompute the desired damping in realtime and maintain the dynamic response of the whole system, or manipulate it.  When a tennis plater strikes a backhand, the right (forward arm) tricep transitions from pulling to releasing, allowing the arm to swing behind the shoulder (no braking).  When you shift a transmition lever into park, the tricep behavior is much differnt although the wrist is controlling the kinematics.  These different dynamics can be implemented through full control of reaction forces.  Poewr generation will naturally be a function of  reaction forces.
 
 My first question: can energy regeneration be implemented with affordable OTS brushless motors?  If so, brushless outperforms brushed DC motors and is the way to go.
 
@@ -162,6 +163,14 @@ I found a benchmark on-hand so I went ahead and disassembled my Craftsman utilit
 
  
 # Build & Design Log
+
+## April 2024
+
+April 4
+
+AI has been available in search engines for several months now.  That's progress.  It means that all mechanical engineers just doubled their effectiveness in writing software (using the new tools).  It means designers in each discipline are twice as capable to gain understanding in a new discipline (with easier online explanations). And, it means hundreds of design teams around the world have realized they set their reach-targets too low in their planning stages in 2023. This project dream just became half as lofty as it was in 2023.
+
+A discussion of sensors:  It will aid this project if we use new terminology.  In the definitions below, I added the word "feel."  In robotics, I've not found an equivalent term yet.  Consider an apple in your hand.  You can feel the apple is there. The outreached arm "feels" the apple, measured in the tension of the shoulder. To reproduce this in robots, traditional engineers place a torque sensor at the shoulder.  Next, rest your elbow on a desk.  It is no longer possible to use the shoulder sensor to sense the apple.  The human adjusts her attention to the wrist.  Chasing this capability in a robot, we then add a torque sensor at the wrist.  If you modify the situation again, we stack up more and more sensors and cost.  Next, double the weight of the apple.  The robot with lots of sensors still cannot measure if it has two apples or one large apple. As we develop solutions for a robot arm, "sense" can describe active collection of a datapoint while "feel" can describe the more general effort of deriving a useful parameter.  We can sense the weight of a clasped object or we can "feel" the weight by running a motion cycle and extracting a mass value from a delta in inertia.  We sense the size of an object with one eye and we feel it's distance by comparing info from our binocular vision.  We sense 
 
 ## December 2023
 
@@ -303,6 +312,11 @@ Most robot arms have missed the point of arms, and we should improve on this.
 | [Website](https://qr.page/g/2wY5JrxcciD ':class=button')
 |
 
+## Definitions
+
+* COTS: commercial-off-the-shelf.  Components with well-refined designs that can be purchased.
+* Feel: For the robot, referring to a signal that can but isn't necessarily sensed and computed. It can be a digital datapoint from a sensor, a current or a voltage preceding a sensor, or a postprocessed datapoint derived from multiple inputs.
+  
 ## Credits 👍
 
 > _giving credit to prior works and contributions_
