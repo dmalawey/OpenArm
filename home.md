@@ -1,11 +1,21 @@
 ![openarm banner](/img/banner_openArm.png)
 
-# OpenArm
+# What's OpenArm?
 > An open-source robot arm_
 > 
 > [Github Repo](https://github.com/dmalawey/OpenArm) github.com/dmalawey/OpenArm
 > 
 > **PURPOSE: to design a robot arm using bio-inspiration for higher modularity and higher loads than leading commercial designs in 2023.**
+
+## More Open Projects
+More Open Source designs initiated by DM & SCUTTLE team:
+* [SCUTTLE Nigeria](https://bit.ly/scuttleNigeria1)
+* [Mechatronics Resources](https://bit.ly/openmechatronics)
+* [OpenArm](https://bit.ly/openarm)
+* [OpenJar](https://bit.ly/openjarproject_v1)
+* [OpenBox](https://bit.ly/openboxproject)
+* [OpenSpin](https:/bit.ly/openspinproject)
+* [OpenAir](https://bit.ly/openairproject)
 
 ## Foreword
 
