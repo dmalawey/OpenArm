@@ -1,11 +1,11 @@
 ![openarm banner](/img/banner_openArm.png)
 
-# What's OpenArm?
-> An open-source robot arm_
-> 
-> [Github Repo](https://github.com/dmalawey/OpenArm) github.com/dmalawey/OpenArm
-> 
-> **PURPOSE: to design a robot arm using bio-inspiration for higher modularity and higher loads than leading commercial designs in 2023.**
+# What is OpenArm?
+An open-source robot arm design with ambitious goals for a completely new way to approach robotic arms.  The design process will take several years but each element (such as joints) will offer value to designers & makers.  You don't need to wait until a design is finished to learn & contribute.
+
+PURPOSE STATEMENT: to design a robot arm using bio-inspiration for higher modularity and higher loads than leading commercial designs in 2023.
+
+From David M: 95% percent of all of today's robots completely omit dynamics.  Mathematics which we developed 100 years ago are not being utilized.  It's not too hard, but it is specialized and to make an elegant design that implements dynamics while accomodating materials, manufacturing, and software control is too difficult for any one company.  For this reason, we will open the design to collaborate with experts globally.
 
 ## More Open Projects
 More Open Source designs initiated by DM & SCUTTLE team:
