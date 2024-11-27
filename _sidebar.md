@@ -1,3 +1,3 @@
 - [home](home)
-- [design](design)
-- [updates](updates)
+- [designs](designs)
+- [tutorials](tutorials)
