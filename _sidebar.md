@@ -1,3 +1,4 @@
 - [home](home)
 - [designs](designs)
 - [tutorials](tutorials)
+- [design log](logs)
