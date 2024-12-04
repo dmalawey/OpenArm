@@ -5,7 +5,7 @@ An open-source robot arm design with ambitious goals for a completely new way to
 
 PURPOSE STATEMENT: to design a robot arm using bio-inspiration for higher modularity and higher loads than leading commercial designs in 2023.
 
-From David M: 95% percent of all of today's robots completely omit dynamics.  Mathematics which we developed 100 years ago are not being utilized.  It's not too hard, but it is specialized and to make an elegant design that implements dynamics while accomodating materials, manufacturing, and software control is too difficult for any one company.  For this reason, we will open the design to collaborate with experts globally.
+From David M: 95% percent of all of today's robots completely omit dynamics.  Nobody cared until 2024.12.03, a very magical day. Mathematics which we developed 100 years ago are not being utilized.  It's not too hard, but it is specialized and to make an elegant design that implements dynamics while accomodating materials, manufacturing, and software control is too difficult for any one company.  For this reason, we will open the design to collaborate with experts globally.
 
 ## More Open Projects
 More Open Source designs initiated by DM & SCUTTLE team:
@@ -23,6 +23,15 @@ More Open Source designs initiated by DM & SCUTTLE team:
 If an expert reviews this project, they will find numerous imperfections; potentially laughable ones.  A well-trained mechanical engineer would not _release_ such imperfections. But this project is not a release, just as every script posted in open software is not a final working script. We are pursuing a new paradigm, where open hardware ascends to match open software.  __In software, open development has surpassed privatized development.__ Developers discovered by publishing every step in realtime, we gain the world's contribution at every step, and 10,000 brilliant minds can outperform a well-paid team of 10 minds.  The only way to reach the new paradigm is to opensource the full development process, not only the end result.  So, we start the project with a goal and NOT with a build, and we trust experts to see the possibilities instead of the present status.  Then, we can incite the collaboration necessary to achieve the impossible.
 
 There is no intention to reproduce a result that has existed before, so the result cannot be bought.  There is no deadline.  The prerequisite to completion is expertise, not funding or parts or tools.
+
+## Updates
+
+Updates and designs are somewhat blended together, since this project is more advanced.  One could say it has a lower PRL (project readiness level) compared with sister projects, like Technology Readiness Level.  
+
+>
+> please see [design logs](logs.md) page
+>
+>
 
 # References
 
